@@ -1,5 +1,7 @@
 import '../assets/page.css';
-import russImage from '../assets/images/russ.jpg';
+import bankSystem from '../assets/projects/banksystem.jpeg';
+import foodSystem from '../assets/projects/foodordersystem.jpeg';
+import carSystem from '../assets/projects/car-rental-system.jpeg';
 
 function Second_Container() {
 
@@ -64,16 +66,16 @@ function Second_Container() {
                     <h1 className="margin">Projects</h1><br />
                     <div className="row margin">
                         <div className="col-sm-4 suc">
-                            <img className='img-responsive' src={russImage} alt="" />
-                            <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque commodi ullam</small>
+                            <img className='img-responsive' style={{ height: '200px', margin: '70px 0 0 0' }} src={bankSystem} alt="" />
+                            <small>Bank system - PHP Mysql Javascript</small>
                         </div>
                         <div className="col-sm-4 suc">
-                            <img className='img-responsive' src={russImage} alt="" />
-                            <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque commodi ullam</small>
+                            <img className='img-responsive' style={{ height: '200px', width: '500px', margin: '70px 0 0 0' }} src={foodSystem} alt="" />
+                            <small>Food order system - PHP Mysql Javascript</small>
                         </div>
                         <div className="col-sm-4 suc">
-                            <img className='img-responsive' src={russImage} alt="" />
-                            <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque commodi ullam</small>
+                            <img className='img-responsive' style={{ height: '200px', width: '500px', margin: '70px 0 0 0' }} src={carSystem} alt="" />
+                            <small>Car rental system - PHP Mysql Javascript</small>
                         </div>
                     </div>
                 </div>
