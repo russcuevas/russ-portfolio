@@ -63,15 +63,15 @@ function Second_Container() {
                     <h1 className="margin">Projects</h1><br />
                     <div className="row margin">
                         <div className="col-sm-4 suc">
-                            <img className='img-responsive' src="/images/russ.jpg" alt="" />
+                            <img className='img-responsive' src="russ.jpg" alt="" />
                             <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque commodi ullam</small>
                         </div>
                         <div className="col-sm-4 suc">
-                            <img className='img-responsive' src="/images/russ.jpg" alt="" />
+                            <img className='img-responsive' src="russ.jpg" alt="" />
                             <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque commodi ullam</small>
                         </div>
                         <div className="col-sm-4 suc">
-                            <img className='img-responsive' src="/images/russ.jpg" alt="" />
+                            <img className='img-responsive' src="russ.jpg" alt="" />
                             <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque commodi ullam</small>
                         </div>
                     </div>
