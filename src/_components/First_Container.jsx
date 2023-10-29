@@ -24,7 +24,7 @@ function First_Container() {
                     <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4"><br /><a
                         href="" target="_blank">
                         <center>
-                            <img className='img-responsive margin' src="/images/school.jpg" alt="Calingatan Elementary School" />
+                            <img className='img-responsive margin' src="russ-portfolio/images/school.jpg" alt="Calingatan Elementary School" />
                             <span>Calingatan Elementary School <br /> (Elementary) </span>
                         </center>
                     </a></div>
