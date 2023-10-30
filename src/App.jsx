@@ -5,7 +5,7 @@ import Footer from './_components/Footer';
 import Navbar from './_components/Navbar';
 import Second_Container from './_components/Second_Container';
 import { ClimbingBoxLoader } from 'react-spinners';
-import FacebookChat from './FacebookChat'; // Import your FacebookChat component
+import FacebookChat from './_components/FacebookChat'; // Import your FacebookChat component
 
 function App() {
   const [loading, setLoading] = useState(true);
