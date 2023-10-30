@@ -34,6 +34,16 @@ const FacebookChat = () => {
 
             {/* Your Chat Plugin code */}
             <div id="fb-customer-chat" className="fb-customerchat"></div>
+
+            {/* CSS to style the Messenger Chat Plugin */}
+            <style>
+                {`
+                    /* Change the color of the Messenger button */
+                    #fb-customer-chat iframe {
+                        filter: hue-rotate(180deg); /* Rotate hue to get different color variations */
+                    }
+                `}
+            </style>
         </div>
     );
 };
