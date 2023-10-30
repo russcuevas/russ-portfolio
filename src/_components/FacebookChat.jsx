@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
+import '../assets/page.css'
 
 const FacebookChat = () => {
     useEffect(() => {
-        // Load Facebook SDK and initialize chat plugin
         window.fbAsyncInit = function () {
             window.FB.init({
                 xfbml: true,
@@ -21,7 +21,6 @@ const FacebookChat = () => {
     }, []);
 
     useEffect(() => {
-        // Set up page_id and attribution for the chat plugin
         var chatbox = document.getElementById('fb-customer-chat');
         chatbox.setAttribute("page_id", "145223862010778");
         chatbox.setAttribute("attribution", "biz_inbox");
@@ -29,21 +28,8 @@ const FacebookChat = () => {
 
     return (
         <div>
-            {/* Messenger Chat Plugin Code */}
             <div id="fb-root"></div>
-
-            {/* Your Chat Plugin code */}
             <div id="fb-customer-chat" className="fb-customerchat"></div>
-
-            {/* CSS to style the Messenger Chat Plugin */}
-            <style>
-                {`
-                    /* Change the color of the Messenger button */
-                    #fb-customer-chat iframe {
-                        filter: hue-rotate(180deg); /* Rotate hue to get different color variations */
-                    }
-                `}
-            </style>
         </div>
     );
 };
