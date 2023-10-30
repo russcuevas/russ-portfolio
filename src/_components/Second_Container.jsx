@@ -77,6 +77,18 @@ function Second_Container() {
                             <img className='img-responsive' style={{ height: '200px', width: '500px', margin: '70px 0 0 0' }} src={carSystem} alt="" />
                             <small>Car rental system - PHP Mysql Javascript</small>
                         </div>
+                        <div className="col-sm-4 suc">
+                            <img className='img-responsive' src="/images/russ.jpg" alt="" />
+                            <small>Soon</small>
+                        </div>
+                        <div className="col-sm-4 suc">
+                            <img className='img-responsive' src="/images/russ.jpg" alt="" />
+                            <small>Soon</small>
+                        </div>
+                        <div className="col-sm-4 suc">
+                            <img className='img-responsive' src="/images/russ.jpg" alt="" />
+                            <small>Soon</small>
+                        </div>
                     </div>
                 </div>
             </div>
