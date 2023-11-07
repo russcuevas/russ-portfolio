@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react';
-import 'aos/dist/aos.css';
-import AOS from 'aos';
+// import React, { useEffect } from 'react';
+// import 'aos/dist/aos.css';
+// import AOS from 'aos';
 import '../assets/page.css'
 
 function Footer() {
-    useEffect(() => {
-        AOS.init({
-        });
-    }, []);
+    // useEffect(() => {
+    //     AOS.init({
+    //     });
+    // }, []);
     return (
         <>
             <footer className="container-fluid bg-footer">
