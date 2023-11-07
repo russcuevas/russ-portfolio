@@ -11,7 +11,7 @@ function Footer() {
     return (
         <>
             <footer className="container-fluid bg-footer">
-                <div data-aos="zoom-out" className="container">
+                <div className="container">
                     <p>Russel Cuevas
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="#me">Home</a> |
