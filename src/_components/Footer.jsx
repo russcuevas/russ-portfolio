@@ -1,11 +1,17 @@
+import React, { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 import '../assets/page.css'
 
 function Footer() {
-
+    useEffect(() => {
+        AOS.init({
+        });
+    }, []);
     return (
         <>
             <footer className="container-fluid bg-footer">
-                <div className="container">
+                <div data-aos="zoom-out" className="container">
                     <p>Russel Cuevas
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="#me">Home</a> |
