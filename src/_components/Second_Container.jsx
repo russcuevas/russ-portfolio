@@ -47,7 +47,8 @@ function Second_Container() {
                             <h4>Technology Stack</h4>
                             <blockquote className="text-left">
                                 <ul className='sub-title'>
-                                    <li>PHP (Laravel)</li>
+                                    <li>C++, C#, VB.NET (Windows Form, Console App)</li>
+                                    <li>PHP (Laravel) - Web Development</li>
                                     <li>MySQL</li>
                                     <li>Javascript</li>
                                 </ul>
